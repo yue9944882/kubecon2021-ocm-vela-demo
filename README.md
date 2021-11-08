@@ -103,7 +103,7 @@ $ kubecl -n <your cluster name> get managedserviceaccount cluster-gateway -o yam
 
 ### Install OCM ClusterGateway Addon
 
-2. Copying cluster-proxy client secrets to the cluster-gateway's namespace
+1. (Manual preparing before helm chart) Copying cluster-proxy client secrets to the cluster-gateway's namespace.
 
 ```shell
 $ kubectl create ns  open-cluster-management-cluster-gateway
